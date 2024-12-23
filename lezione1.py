@@ -181,10 +181,15 @@
 #         R[i][j] = R[i][j] - c
 
 
-lista_1: list = [1, 2, 3, 4, 5]
-contatore: int = 0
-password = "Ciao"
-b = ""
+# lista_1: list = [1, 2, 3, 4, 5]
+# contatore: int = 0
+
+passwords: dict = {"Flavio": "1234", 
+                   "Giovanni": "5678", 
+                   "Marco": "91011"}
+
+nome_utente: str = input("Inserisci il nome utente: ")
+password: str = passwords[nome_utente]
 
 while True:
     
@@ -195,4 +200,16 @@ while True:
     else:
         print("Password errata")
    
-pass
+# pass
+
+# lista_1: list = ["a", "b", "c", "d", "e"] * 10
+# contatore: int = 0
+
+# while contatore < len(lista_1):
+    
+#     print(lista_1[contatore])
+#     contatore += 1
+    
+# for lettera in lista_1:
+#     print(lettera)
+
