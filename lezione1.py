@@ -148,14 +148,51 @@
 # else:
 #     print("Ciao")    
 
-lista_numeri: list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-lista_caratteri: list = ["a", "b", "c", "d", "e"]
+# lista_numeri: list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+# lista_caratteri: list = ["a", "b", "c", "d", "e"]
 
-print(range(10))
+# print(range(10))
 
-for indice in range(len(lista_numeri)):
+# for indice in range(len(lista_numeri)):
     
-    if indice < len(lista_caratteri):
-        print(f"{lista_numeri[indice]=} -> {indice=}")
+#     if indice < len(lista_caratteri):
+#         print(f"{lista_numeri[indice]=} -> {indice=}")
         
-    print(f"{lista_caratteri[indice]=} -> {indice=}")
+#     print(f"{lista_caratteri[indice]=} -> {indice=}")
+    
+
+# for l in range(2):
+#     for k in range(2):
+#         for z in range(2):
+#             for x in range(2):
+#                 for y in range(2):
+#                     print(f"binario {l, k, z, x, y} decimale {l*2**4 + k*2**3 + z*2**2 + x*2**1 + y*2**0}")
+
+# R: list = [[24, 128, 233], [10, 23, 255], [1, 0, 34]]
+# G: list = [[24, 128, 233], [10, 23, 255], [1, 0, 34]]
+# B: list = [[24, 128, 233], [10, 23, 255], [1, 0, 34]]
+
+# c: int = 15
+
+# img:list = [R, G, B]
+
+# for i in range(len(R)):
+#     for j in range(len(R[i])):
+#         R[i][j] = R[i][j] - c
+
+
+lista_1: list = [1, 2, 3, 4, 5]
+contatore: int = 0
+password = "Ciao"
+b = ""
+
+while True:
+    
+    b = input("Inserisci la password: ")
+    if b == password:
+        print("Password corretta")
+        break
+    else:
+        print("Password errata")
+   
+pass
