@@ -184,23 +184,29 @@
 # lista_1: list = [1, 2, 3, 4, 5]
 # contatore: int = 0
 
-passwords: dict = {"Flavio": "1234", 
-                   "Giovanni": "5678", 
-                   "Marco": "91011"}
+# passwords: dict = {"Flavio": "1234", 
+#                    "Giovanni": "5678", 
+#                    "Marco": "91011"}
 
-nome_utente: str = input("Inserisci il nome utente: ")
-password: str = passwords[nome_utente]
+# nome_utente: str = input("Inserisci il nome utente: ")
+# password: str = passwords[nome_utente]
+# tentativi: int = 0
 
-while True:
+# while True:
     
-    b = input("Inserisci la password: ")
-    if b == password:
-        print("Password corretta")
-        break
-    else:
-        print("Password errata")
+#     b = input("Inserisci la password: ")
+#     if b == password:
+#         print("Password corretta")
+#         break
+#     elif tentativi == 2:
+#         print("Hai esaurito i tentativi")
+#         break
+#     else:
+#         print("Password errata")
+#         tentativi += 1
    
 # pass
+
 
 # lista_1: list = ["a", "b", "c", "d", "e"] * 10
 # contatore: int = 0
@@ -213,3 +219,66 @@ while True:
 # for lettera in lista_1:
 #     print(lettera)
 
+# import time
+
+# seconds: int = 60
+
+# while seconds > 0:
+    
+#     print(f"Mancano {seconds} secondi")
+#     time.sleep(1)
+#     seconds -= 1
+
+
+# for i in range(10):
+    
+#     if i % 2 == 1:
+#         continue
+    
+#     print(i)
+    
+# contatore: int = 0
+
+# while contatore < 10:
+
+    
+#     print(contatore)
+#     contatore = contatore - 1
+    
+# print("Ciao")
+
+# menu: dict = {"Zuppa": 5, "Pizza": 10, "Pasta": 15, "Insalata": 5}
+# ordine: dict = {"primo": "Zuppa", "secondo": "Pizza", "contorno": "Insalata"}
+
+
+# totale = 0.0
+
+# for piatto in ordine.values():
+    
+#     print(piatto, menu[piatto])
+#     totale += menu[piatto]
+
+# print(f"Il totale è {totale}")  
+
+# menu:dict = {"primi":{"Pizza": 9.00, "Pasta": 10.50, "Zuppa": 7.00}}
+# menu["secondi"] = {"Hamburger": 15.50, "Cotoletta": 10.00, "Salmone": 20.20}
+# menu["contorni"] = {"Patatine Fritte": 5.50, "Patate al forno": 5.50, "Verdura del giorno": 7.00}
+# menu["dolci"] = {"Cheesecake": 6.00, "Tiramisu'": 6.00, "Focaccia con Nutella": 6.00}
+# menu["bevande"] = {"Coca Cola": 3.50, "Acqua": 1.50, "Vino": 5.00}
+
+
+temperatura_far = float(input("Inserisci la temperatura in Fahrenheit: "))
+
+temperatura_cel = (temperatura_far - 32) * 5/9
+print(temperatura_cel)
+
+
+dizionario_amici: dict = {"Flavio": 1, "Giovanni": 2, "Marco": 3, "Luca": 4, "Paolo": 5}
+
+lista = [("Flavio", 1), ("Giovanni", 2), ("Marco", 3), ("Luca", 4), ("Paolo", 5)]
+  
+for key, value in lista:
+    print(f"{key}, {value}")
+    
+ordine: dict = {"primi": "Pasta", "secondi": "Cotoletta", "contorni": "Patatine fritte"}
+totale = 0.0
