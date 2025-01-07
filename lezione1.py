@@ -288,3 +288,47 @@
 # for license_plate, models in dict_1.items():
 
 #     print(f"({license_plate}, {models})")
+                
+# list_1: list = ["Ciao", "Come", "Stai"]
+# list_2: list = [42, 98]
+
+# for index in range(len(list_1)):
+
+#     if index < len(list_2):
+
+#         print(list_1[index], list_2[index])
+    
+#     else:
+
+#         print(list_1[index])
+
+# start: int = 0
+# end: int = 10
+# step: int = 2
+
+# for index in range(start, end):
+
+#     if index % 2 == 1:
+
+#         continue
+
+#     print(index)
+#     a = [1243, 21]
+#     print("CIao")
+
+
+    # if index % 2 == 0:
+    #     print(index)
+    
+    # else:
+    #     pass
+
+for index in range(0, 10):
+
+    if index >= 5:
+
+        break
+
+    print(index)
+
+print("Sono fuori dal ciclo!")
