@@ -267,18 +267,24 @@
 # menu["bevande"] = {"Coca Cola": 3.50, "Acqua": 1.50, "Vino": 5.00}
 
 
-temperatura_far = float(input("Inserisci la temperatura in Fahrenheit: "))
+# temperatura_far = float(input("Inserisci la temperatura in Fahrenheit: "))
 
-temperatura_cel = (temperatura_far - 32) * 5/9
-print(temperatura_cel)
+# temperatura_cel = (temperatura_far - 32) * 5/9
+# print(temperatura_cel)
 
 
-dizionario_amici: dict = {"Flavio": 1, "Giovanni": 2, "Marco": 3, "Luca": 4, "Paolo": 5}
+# dizionario_amici: dict = {"Flavio": 1, "Giovanni": 2, "Marco": 3, "Luca": 4, "Paolo": 5}
 
-lista = [("Flavio", 1), ("Giovanni", 2), ("Marco", 3), ("Luca", 4), ("Paolo", 5)]
+# lista = [("Flavio", 1), ("Giovanni", 2), ("Marco", 3), ("Luca", 4), ("Paolo", 5)]
   
-for key, value in lista:
-    print(f"{key}, {value}")
+# for key, value in lista:
+#     print(f"{key}, {value}")
     
-ordine: dict = {"primi": "Pasta", "secondi": "Cotoletta", "contorni": "Patatine fritte"}
-totale = 0.0
+# ordine: dict = {"primi": "Pasta", "secondi": "Cotoletta", "contorni": "Patatine fritte"}
+# totale = 0.0
+
+# dict_1: dict = {"KJ 234 MK": "Ford C-Max", "UJ 341 OK": "Ferrari", "WD 431 IL": "Bugatti"}
+
+# for license_plate, models in dict_1.items():
+
+#     print(f"({license_plate}, {models})")
