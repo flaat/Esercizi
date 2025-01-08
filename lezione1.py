@@ -323,12 +323,14 @@
     # else:
     #     pass
 
-for index in range(0, 10):
+# for index in range(0, 10):
 
-    if index >= 5:
+#     print(index)
 
-        break
+#     if index >= 5:
 
-    print(index)
+#         break
 
-print("Sono fuori dal ciclo!")
+    
+
+# print("Sono fuori dal ciclo!")
